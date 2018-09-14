@@ -12,8 +12,8 @@ func TestInitialization(t *testing.T) {
 		fmt.Print(err)
 		os.Exit(1)
 	}
-
-	words_list, err := SplitWords("我在北京天安门", res)
+	//我在北京天安门
+	words_list, err := SplitWords("我在东京", res)
 	if err != nil{
 		fmt.Println(err)
 	}
